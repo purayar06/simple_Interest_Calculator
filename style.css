@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    height: 120vh;
+    background: linear-gradient(#6699CC, #00FFFF, #6699CC);
+}
+
+.calc {
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    right: 50%;
+    width: 45vw;
+    padding: 60px 30px;
+    border-radius: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #01a2e2;
+}
+
+label {
+    color: #000000;
+    display: flow-root;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+input {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 2.4px solid #01e2e2;
+    border-radius: 5px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+button {
+    display: block;
+    background-color: #01a2e2;
+    border: none;
+    color: #ffffff;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    box-shadow: 1px 4px 4px #00b4d8;
+}
+
+#result {
+    background-color: #c6fbff;
+    margin-top: 30px;
+    color: #01a2e2;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#result div {
+    margin-bottom: 10px;
+}
+
+#result span {
+    color: #000000;
+    font-weight: 500;
+}
